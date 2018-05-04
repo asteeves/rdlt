@@ -2,9 +2,9 @@
 * for GROMACS in the STaGE program (opls.par) to those
 * defined in oplsaa.lt for use with moltemplate. The latter
 * are described as being taken from Tinker.
-* 
+*
 * including the AA atom types.
-* 
+*
 
 * ELE | SYMBOL | GROMACS | RULE | moltemplate | charge | description
 
@@ -20,7 +20,7 @@ C   |  CM       |   opls_142   |  [$([CH1D3]([#6])=[#6])] | @atom:87 |   -0.115 
 C   |  CM       |   opls_143   |  [$([CH2D3]=[#6])] | @atom:88 |   -0.23  | "Alkene H2-C="
 H   |  HC       |   opls_144   |  [$([#1][CD3])] | @atom:89 |   0.115  | "Alkene H-C="
 C   |  CA       |   opls_145   |  [$([c]([c])[c])] | @atom:90 |   -0.115  | "Aromatic C"
-C   |  C!       |   opls_145B  |  [$([c](c)(c)-[c](c)c)] | @atom:460 |  0.0  | "Biphenyl C1" 
+C   |  C!       |   opls_145B  |  [$([c](c)(c)-[c](c)c)] | @atom:460 |  0.0  | "Biphenyl C1"
 H   |  HA       |   opls_146   |  [$([#1][c]([c])[c])] | @atom:91 |   0.115  | "Aromatic H-C"
 C   |  CA       |   opls_147   |  [$([c](c)(c)(c))] | @atom:92 |   0.0  | "Naphthalene Fusion C"
 C   |  CT       |   opls_148   |  [$([CH3][c])] | @atom:93 |   -0.065  | "Ethyl Benzene CH3-"
@@ -34,17 +34,17 @@ C   |  C=       |   opls_150   |  [$([CH1](=C)-[CH1]=C)] | @atom:95 |   -0.115  
 *H   |  HC       |   opls_153   |  [$([#1][CD4]([#6,H])([#6,H])([F,Cl,Br,I])[F,Cl,Br,I])] | @atom:802 |   0.103  | "Alkyl Chloride H-C-Cl"
 * modified versions
 Cl  |  Cl       |   opls_151   |  [$([Cl][CD4])] | @atom:800  |   -0.2  | "Alkyl Chloride C-Cl"
-C   |  CT       |   opls_152   |  [$([CH2D4]([!Cl])[Cl])] | @atom:801  |   -0.006  | "Alkyl Chloride RCH2-Cl" 
+C   |  CT       |   opls_152   |  [$([CH2D4]([!Cl])[Cl])] | @atom:801  |   -0.006  | "Alkyl Chloride RCH2-Cl"
 H   |  HC       |   opls_153   |  [$([#1][#6D4][Cl])] | @atom:802  |   0.103  | "Alkyl Chloride H-C-Cl"
 C   |  CT       |   opls_xxx   |  [$([CH1D4]([!Cl])([!Cl])[Cl])] | @atom:803  |   0.097  | "Alkyl Chloride R2CH-Cl"
 C   |  CT       |   opls_xxx   |  [$([CH0D4]([!Cl])([!Cl])([!Cl])[Cl])] | @atom:804  |   0.200  | "Alkyl Chloride R3C-Cl"
 Br  |  Br       |   opls_xxx   |  [$([Br][CD4])] | @atom:805  |   -0.2  | "Alkyl Bromide C-Cl"
-C   |  CT       |   opls_xxx   |  [$([CH2D4]([!Br])[Br])] | @atom:806  |   -0.006  | "Alkyl Bromide RCH2-Br" 
+C   |  CT       |   opls_xxx   |  [$([CH2D4]([!Br])[Br])] | @atom:806  |   -0.006  | "Alkyl Bromide RCH2-Br"
 H   |  HC       |   opls_xxx   |  [$([#1][#6D4][Br])] | @atom:807  |   0.103  | "Alkyl Bromide H-C-Br"
 C   |  CT       |   opls_xxx   |  [$([CH1D4]([!Br])([!Br])[Br])] | @atom:808  |   0.097  | "Alkyl Bromide R2CH-Br"
 C   |  CT       |   opls_xxx   |  [$([CH0D4]([!Br])([!Br])([!Br])[Br])] | @atom:809  |   0.200  | "Alkyl Bromide R3C-Br"
 I   |  I        |   opls_xxx   |  [$([I][CD4])] | @atom:838  |   -0.13  | "Alkyl Iodide C-I"
-C   |  CT       |   opls_xxx   |  [$([CH2D4]([!I])[I])] | @atom:835  |   -0.07  | "Alkyl Iodide RCH2-I" 
+C   |  CT       |   opls_xxx   |  [$([CH2D4]([!I])[I])] | @atom:835  |   -0.07  | "Alkyl Iodide RCH2-I"
 H   |  HC       |   opls_xxx   |  [$([#1][#6D4][I])] | @atom:839  |   0.1  | "Alkyl Iodide H-C-I"
 C   |  CT       |   opls_xxx   |  [$([CH1D4]([!I])([!I])[I])] | @atom:836  |   0.03  | "Alkyl Iodide R2CH-I"
 C   |  CT       |   opls_xxx   |  [$([CH0D4]([!I])([!I])([!I])[I])] | @atom:837  |   0.13  | "Alkyl Bromide R3C-I"
@@ -173,8 +173,8 @@ Cl  |  Cl       |   opls_264   |  [$([Cl][c])] | @atom:206 |   -0.18  | "Chlorob
 N   |  N        |   opls_265   |  [$([NH1D3](c)[CD3]=[O])] | @atom:207 |   -0.385  | "N-Phenylacetamide N"
 C   |  CA       |   opls_266   |  [$([c][NH1D3][CD3]=[O])] | @atom:208 |   0.085  | "N-Phenylacetamide N-CA"
 C   |  C        |   opls_267   |  [$([CD3](=O)[OH])] | @atom:209 |   0.52  | "Carboxylic Acid -COOH"
-O   |  OH       |   opls_268   |  [$([OH][CD3]=[O])] | @atom:210 |   -0.44  | "Carboxylic Acid C=O"
-O   |  O_3      |   opls_269   |  [$([O]=[CD3][OH])] | @atom:211 |   -0.53  | "Carboxylic Acid -OH"
+O   |  OH       |   opls_268   |  [$([OH][CD3]=[O])] | @atom:211 |   -0.53  | "Carboxylic Acid -OH"
+O   |  O_3      |   opls_269   |  [$([O]=[CD3][OH])] | @atom:210 |   -0.44  | "Carboxylic Acid C=O"
 H   |  HO       |   opls_270   |  [$([#1][O][CD3]=[O])] | @atom:212 |   0.45  | "Carboxylic Acid -COOH"
 C   |  C_3      |   opls_271   |  [$([#6](~[#8D1])~[#8D1])] | @atom:213 |   0.7  | "Carboxylate COO-"
 O   |  O2       |   opls_272   |  [$([#8D1]~[#6]~[#8D1])] | @atom:214 |   -0.8  | "Carboxylate COO-"
@@ -198,7 +198,7 @@ N   |  N3       |   opls_287   |  [$([#7H3D4])] | @atom:230 |   -0.3  | "Ammoniu
 N   |  N3       |   opls_288   |  [$([#7H0D4])] | @atom:231 |   0.0  | "Ammonium R4N+"
 H   |  H3       |   opls_289   |  [$([#1][#7H4D4])] | @atom:232 |   0.35  | "Ammonium NH4+"
 H   |  H3       |   opls_290   |  [$([#1][#7H3D4])] | @atom:233 |   0.33  | "Ammonium RNH3+"
-C   |  CT       |   opls_291   |  [$([CH3D4][#7H3D4])] | @atom:234 |   0.13  | "Ammonium CH3-NH3+" 
+C   |  CT       |   opls_291   |  [$([CH3D4][#7H3D4])] | @atom:234 |   0.13  | "Ammonium CH3-NH3+"
 C   |  CT       |   opls_292   |  [$([CH2D4][#7H3D4])] | @atom:235 |   0.19  | "CH2NH3+/N-Term GLY CA" ?
 C   |  CT_2     |   opls_292B  |  [$([CH2D4]([CD3]=[O])[#7H3D4])] | @atom:235 |   0.19  | "CH2NH3+/N-Term GLY CA" ?
 *C   |  CT       |   opls_293   |  [$([CH1D4][#7H3D4])]| @atom:236 |   0.25  | "RCHNH3+/N-Term ALA CA" ?
@@ -315,8 +315,8 @@ Br  |  Br-      |   opls_402   |  [Br-] | @atom:345 |   -1.0  | "Bromide Ion Br-
 I   |  I-       |   opls_403   |  [I-] | @atom:346 |   -1.0  | "Iodide Ion I-"
 Li  |  Li+      |   opls_404   |  [Li+] | @atom:348 |   1.0  | "Lithium Ion Li+"
 Na  |  Na+      |   opls_405   |  [Na+] | @atom:349 |   1.0  | "Sodium Ion Na+"
-* Li  |  Li+      |   opls_406   |  [Li+] | 
-* Na  |  Na+      |   opls_407   |  [Na+] | 
+* Li  |  Li+      |   opls_406   |  [Li+] |
+* Na  |  Na+      |   opls_407   |  [Na+] |
 K   |  K+       |   opls_408   |  [K+] | @atom:350 |   1.0  | "Potassium Ion K+"
 Rb  |  Rb+      |   opls_409   |  [Rb+] | @atom:351 |   1.0  | "Rubidium Ion Rb+"
 Cs  |  Cs+      |   opls_410   |  [Cs+] | @atom:352 |   1.0  | "Cesium Ion Cs+"
@@ -428,7 +428,7 @@ C   |  CT       |   opls_516   |  [$([CH0D4][c])] | @atom:457 |   0.115  | "t-Bu
 * Are 517 and 518 correct? --note from OPLS.par
 C   |  CM       |   opls_517   |  [$([CH1D3](=[CD3])[O][CD4])] | @atom:458 |   -0.03  | "Vinyl Ether =CH-OR"
 C   |  CM       |   opls_518   |  [$([CH0D3](=[CD3])[O][CD4])] | @atom:459 |   0.085  | "Vinyl Ether =CR-OR"
-* no opls_519 in opls.par, 
+* no opls_519 in opls.par,
 N   |  NC       |   opls_520   |  [$([nD2]1ccccc1)] | @atom:461 |   -0.678  | "Pyridine N"
 C   |  CA       |   opls_521   |  [$([c]1cccc[nD2]1)] | @atom:462 |   0.473  | "Pyridine C1"
 C   |  CA       |   opls_522   |  [$([c]1ccc[nD2]c1)] | @atom:463 |   -0.447  | "Pyridine C2"
@@ -733,6 +733,6 @@ C   |  CT       |   opls_960   |  [$([CH0D4]([F])([!F])([!F])([!F]))] | @atom:79
 C   |  CT       |   opls_964   |  [$([CH0D4](F)(F)(F)F)] | @atom:794  | 0.48  | "Tetrafluoromethane CF4"
 F   |  F        |   opls_965   |  [$([F][CH0]([F])([F])[F])] | @atom:795 |   -0.12  | "Perfluoroalkane C-F"
 * no matches for these in oplsaa
-*Cu  |  Cu2+     |   Cu2+       |  [Cu+2] 
+*Cu  |  Cu2+     |   Cu2+       |  [Cu+2]
 *Fe  |  Fe2+     |   Fe2+       |  [Fe+2]
 *Si  |  SI       |   SI         |  [Si]

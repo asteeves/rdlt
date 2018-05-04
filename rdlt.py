@@ -137,7 +137,7 @@ EndFeature""".format(lttype, patt, feat_index, atomname)
                 outfile.write(fdefn)
 
     with open(cdictout,'wb') as f:
-        pickle.dump(cdict,f, pickle.HIGHEST_PROTOCOL)
+        pickle.dump(cdict,f, protocol=2)
 
 
 def main():
