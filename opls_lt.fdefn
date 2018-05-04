@@ -467,10 +467,10 @@ EndFeature
 DefineFeature @atom:209 [$([CD3](=O)[OH])]
 Family 155C
 EndFeature
-DefineFeature @atom:210 [$([OH][CD3]=[O])]
+DefineFeature @atom:211 [$([OH][CD3]=[O])]
 Family 156OH
 EndFeature
-DefineFeature @atom:211 [$([O]=[CD3][OH])]
+DefineFeature @atom:210 [$([O]=[CD3][OH])]
 Family 157O_3
 EndFeature
 DefineFeature @atom:212 [$([#1][O][CD3]=[O])]
